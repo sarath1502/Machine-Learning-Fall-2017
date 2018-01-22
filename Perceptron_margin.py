@@ -1,6 +1,6 @@
 
 import numpy
-# Perceptron Algorithm on the Sonar Dataset
+# Perceptron Algorithm wwith Margin
 from random import seed
 from random import randrange
 from csv import reader, writer
