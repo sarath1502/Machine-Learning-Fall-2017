@@ -1,5 +1,5 @@
 import numpy
-# Logistic Regression Algorithm, using stochastic gradient descent on the Twitter Data Set
+# Logistic Regression Algorithm on the Twitter Data Set
 from random import seed
 from random import randrange
 from csv import reader, writer
