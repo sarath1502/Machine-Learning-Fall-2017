@@ -24,7 +24,7 @@ def write_csv(filename, array):
         csvfile.write('Id,Prediction')
         for row in array:
             csvfile.write(str(row[0][0]) + ',' + str(row[1]) + '\n')
-            print ('Test for git')
+            print ('Test utah show')
 
 def sarath(i, x, y):
     for a in i:
