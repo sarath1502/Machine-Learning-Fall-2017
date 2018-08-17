@@ -21,9 +21,10 @@ def write_csv(filename, array):
     with open(filename, 'w') as csvfile:
         csv_writer = writer(csvfile)
         # [['Id', 'Prediction']]
-        csvfile.write('Id,Prediction\n')
+        csvfile.write('Id,Prediction')
         for row in array:
             csvfile.write(str(row[0][0]) + ',' + str(row[1]) + '\n')
+            print ('Test')
 
 def sarath(i, x, y):
     for a in i:
@@ -158,4 +159,4 @@ for a in range(len(eval_label)):
 
 # write_csv('results.csv', )
 write_csv('results.csv', csv_array)
-# print(c, w)
+print(c, w)
