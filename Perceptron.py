@@ -21,7 +21,7 @@ def write_csv(filename, array):
     with open(filename, 'w') as csvfile:
         csv_writer = writer(csvfile)
         # [['Id', 'Prediction']]
-        csvfile.write('Id,Prediction\n')
+        csvfile.write('Id,Prediction')
         for row in array:
             csvfile.write(str(row[0][0]) + ',' + str(row[1]) + '\n')
 
